@@ -42,7 +42,6 @@ class Song
   def self.alphabetical
     @@all.sort { |a, b| a <=> b }
   end
-  binding.pry
 
 
   # def read_me
