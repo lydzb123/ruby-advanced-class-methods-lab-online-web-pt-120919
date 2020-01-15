@@ -49,7 +49,6 @@ class Song
     song.name = split_filename[1]
     song.artist_name = split_filename[0]
 
-    
   end
 
   # def read_me
