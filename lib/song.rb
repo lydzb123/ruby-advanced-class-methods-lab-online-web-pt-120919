@@ -44,7 +44,7 @@ class Song
   end
 
   def self.new_from_filename(filename)
-    filename.split(' - ')
+    filename.split(" - "")
     song = song.new
 
     song.name =
