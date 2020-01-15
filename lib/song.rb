@@ -40,9 +40,10 @@ class Song
   end
 
   def self.alphabetical
-    @@all.sort { |a, b| a <=> b }
+    @name.sort { |a, b| a <=> b }
     self.all
   end
+
 
 
   # def read_me
