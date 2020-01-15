@@ -58,6 +58,7 @@ def self.create_from_filename(filename)
   song.name = split_filename[1].split(".mp3")[0]
   song.artist_name = split_filename[0]
   song.save
+  song
 end
   # def read_me
   #   @name  #here i can call on just the instance variable because when the instnace method
