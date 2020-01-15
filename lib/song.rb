@@ -60,6 +60,11 @@ def self.create_from_filename(filename)
   song.save
   song
 end
+
+
+def self.destroy_all
+end
+
   # def read_me
   #   @name  #here i can call on just the instance variable because when the instnace method
   #   #readme is invoked, it will search the @name of the instance given
