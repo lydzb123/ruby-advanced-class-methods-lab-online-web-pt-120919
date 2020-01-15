@@ -43,8 +43,20 @@ class Song
     @@all.sort { |a, b| a.name <=> b.name }
   end
 
-  def self.new_from_filename
+  def self.new_from_filename(filename)
+    filename.split(' - ')
+    song = song.new
+
+    song.name =
+
+    song.artist_name =
   end
+
+  song and artist_name based on the filename format' do
+   song = Song.new_from_filename("Thundercat - For Love I Come.mp3")
+
+   expect(song.name).to eq("For Love I Come")
+   expect(song.artist_name).to eq("Thundercat")
 
   # def read_me
   #   @name  #here i can call on just the instance variable because when the instnace method
