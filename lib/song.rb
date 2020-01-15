@@ -43,7 +43,8 @@ class Song
     @@all.sort { |a, b| a.name <=> b.name }
   end
 
-
+  def self.new_from_filename
+  end
 
   # def read_me
   #   @name  #here i can call on just the instance variable because when the instnace method
