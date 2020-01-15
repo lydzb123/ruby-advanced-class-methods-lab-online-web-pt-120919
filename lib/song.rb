@@ -41,9 +41,9 @@ class Song
 
   def self.alphabetical
     @@all.sort { |a, b| a <=> b }
-    binding.pry
-
   end
+  binding.pry
+
 
   # def read_me
   #   @name  #here i can call on just the instance variable because when the instnace method
