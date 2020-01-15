@@ -38,11 +38,11 @@ class Song
     self.find_by_name(name) || self.create_by_name(name)
   end
 
-  def read_me
-    @name  #here i can call on just the instance variable because when the instnace method
-    #readme is invoked, it will search the @name of the instance given
-  end
-  song.read_me
+  # def read_me
+  #   @name  #here i can call on just the instance variable because when the instnace method
+  #   #readme is invoked, it will search the @name of the instance given
+  # end
+  # song.read_me
 
 # class is blueprint, or mom
 #   instance is an object based on blueprint, or baby
