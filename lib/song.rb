@@ -44,12 +44,10 @@ class Song
   end
 
   def self.new_from_filename(filename)
-    filename.split(" - ")
+    split_filename = filename.split(" - ")
     song = song.new
-
-    song.name =
-
-    song.artist_name =
+    song.name = split_filename[1]
+    song.artist_name = split_filename[0]
   end
 
   song and artist_name based on the filename format' do
