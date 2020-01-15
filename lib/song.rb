@@ -50,12 +50,6 @@ class Song
     song.artist_name = split_filename[0]
   end
 
-  song and artist_name based on the filename format' do
-   song = Song.new_from_filename("Thundercat - For Love I Come.mp3")
-
-   expect(song.name).to eq("For Love I Come")
-   expect(song.artist_name).to eq("Thundercat")
-
   # def read_me
   #   @name  #here i can call on just the instance variable because when the instnace method
   #   #readme is invoked, it will search the @name of the instance given
